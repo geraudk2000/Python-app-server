@@ -1,0 +1,19 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: python-http-ingress
+  namespace: dev
+  annotations:
+    kubernetes.io/ingress.class: traefik
+spec:
+  rules:
+    - host: d625474e-20a1-4946-a205-152232a20478.k8s.civo.com
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: python-http-service
+                port:
+                  number: 8080
