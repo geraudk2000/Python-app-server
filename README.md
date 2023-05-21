@@ -17,3 +17,9 @@ To run the code locally, follow these steps:
 2. Open a terminal or command prompt and navigate to the project directory.
 
 3. Run the following command to start the server:
+
+4. Create a Dockerfile for the server:
+    1- Build heavy image with docker file 1-example.Dockerfile
+    2- Build lightweigt image From 3.11.2-slim-buster image, 2-example.Dockerfile
+    3- Build image from google distroless image gcr.io/distroless/python3-debian11 3-example.Dockerfile
+    4- Multistage Build
