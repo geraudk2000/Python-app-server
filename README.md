@@ -6,7 +6,7 @@ This repository provides a simple HTTP server in Python along with instructions 
 
 ## 1. Create Simple HTTP Server in Python
 
-The code for the simple HTTP server is already provided in the `server.py` file. It uses the `http.server` module from the Python standard library to create a basic server that listens on port 8000 and responds with "Hello, World!" to any incoming requests.
+The code for the simple HTTP server is already provided in the `server.py` file. It uses the `http.server` module from the Python standard library to create a basic server that listens on port 8080 and responds with "Hello, World!" to any incoming requests.
 
 ## 2. Run the Code Locally
 
